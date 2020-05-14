@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ker:KerberosRealmsSettings xmlns:ker="http://pingidentity.com/2012/01/kerberos-realms">
+    <ker:KerberosRealms/>
+    <ker:KdcTimeout>3000</ker:KdcTimeout>
+    <ker:KdcRetries>3</ker:KdcRetries>
+    <ker:ForceTcp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <ker:Debug xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+</ker:KerberosRealmsSettings>

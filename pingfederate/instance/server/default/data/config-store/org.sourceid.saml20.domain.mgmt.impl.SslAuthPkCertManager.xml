@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="http://pingone.com/5712d898-2464-434b-99f9-0816b4e24213"/>
+    <con:map name="https://saml.salesforce.com"/>
+    <con:map name="http://pingone.com/e1bb4311-f3c7-4d76-a800-898bbddf70e0"/>
+    <con:map name="https://stinnett2winit-dev-ed.my.salesforce.com"/>
+</con:config>

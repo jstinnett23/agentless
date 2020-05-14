@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldap:ldap-sources xmlns:ldap="http://pingidentity.com/2004/09/ldap-ds">
+    <ldap:ldap-source id="LDAP-36DC6B0F80C0AC2D89F2F1812BCC93560AE16808" maskAttributeValues="false" ldapType="ActiveDirectory" ldapTypeDesc="Active Directory" testOnBorrow="false" testOnReturn="false" createIfNecessary="true" minIdle="10" maxActive="100" maxWait="-1" timeBetweenEvictionRunsMillis="60000" readTimeoutMillis="3000" connTimeoutMillis="3000" verifyHost="true" dnsTtlMillis="60000" ldapDnsSrvPrefix="_ldap._tcp" ldapsDnsSrvPrefix="_ldaps._tcp">
+        <ldap:host>dc01.lab.stinnett2winit.local</ldap:host>
+        <ldap:principal>pingsvc@lab.stinnett2winit.local</ldap:principal>
+        <ldap:use-ssl>true</ldap:use-ssl>
+        <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
+        <ldap:ad-referral>false</ldap:ad-referral>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiYkxJdzNMMXlEMiIsInZlcnNpb24iOiIxMC4wLjIuMiJ9..C9RuGsS3eSbY_xhwItnZJw.Wo3PLjzhmlisBR4_DjQmqw.Y91BWXw4FITA4tNm5S0Yiw</ldap:credentials>
+        <ldap:authenticationMeth>simple</ldap:authenticationMeth>
+        <ldap:description>Stinnett2WinIt LDAP</ldap:description>
+        <ldap:name>Stinnett2WinIt LDAP</ldap:name>
+        <ldap:binaryAttributes/>
+        <ldap:ldapHostTagList>
+            <ldap:tagEntry host="dc01.lab.stinnett2winit.local" tags=""/>
+        </ldap:ldapHostTagList>
+    </ldap:ldap-source>
+</ldap:ldap-sources>
