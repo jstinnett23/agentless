@@ -13,7 +13,7 @@ version: "3.1"
 #-    https://localhost:9999/pingfederate/app
 #-    
 #-    Username: administrator
-#-    Password: PingRocks2020
+#-    Password: 2FederateM0re
 #-------------------------------------------------------------------------------------
 
 services:
@@ -29,6 +29,9 @@ services:
       - "9999:9999"
     networks:
       - pingnet
+    # volumes:
+    #   - ./pingfederate:/opt/in
+    #   - ./output:/opt/out
                     
 networks:
     pingnet:

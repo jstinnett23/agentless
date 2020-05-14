@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
-    <con:item name="SigningKeyPairAlias">z7u56jia82shuoeu4c8tpg9am</con:item>
-    <con:item name="MetadataUploadPending">false</con:item>
-    <con:item name="ProvisioningUsername">prov-GHeR7J9h3z</con:item>
-    <con:item name="EncryptedProvisioningPassword">OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiYkxJdzNMMXlEMiIsInZlcnNpb24iOiIxMC4wLjIuMiJ9..XIT8GqMGg1moObYiV8L55g.J0DE4AARYvbN_ID5LN8_eMEYP8Ks-mrvbPJ0q_9UICI.zlcXUzksWCjN8V_pOmc4Ww</con:item>
-</con:config>

@@ -3,19 +3,19 @@
 <con:config xmlns:con="http://www.sourceid.org/2004/05/config">
     <con:map name="idp">
         <con:item name="EntityIdValidator"/>
-        <con:item name="IdpConnectionEntityIdKnownValidator"/>
+        <con:item name="EntityIdKnownValidator"/>
     </con:map>
     <con:map name="PartnerIdpId">
         <con:item name="EntityIdValidator"/>
-        <con:item name="IdpConnectionEntityIdKnownValidator"/>
+        <con:item name="EntityIdKnownValidator"/>
     </con:map>
     <con:map name="PartnerSpId">
         <con:item name="EntityIdValidator"/>
-        <con:item name="SpConnectionEntityIdKnownValidator"/>
+        <con:item name="EntityIdKnownValidator"/>
     </con:map>
     <con:map name="PARTNER">
         <con:item name="EntityIdValidator"/>
-        <con:item name="SpConnectionEntityIdKnownValidator"/>
+        <con:item name="EntityIdKnownValidator"/>
     </con:map>
     <con:map name="TargetResource">
         <con:item name="NoEolValidator"/>
@@ -76,8 +76,5 @@
     </con:map>
     <con:map name="RequestedFormat">
         <con:item name="UriValidator"/>
-    </con:map>
-    <con:map name="client_id">
-        <con:item name="LengthValidator">256</con:item>
     </con:map>
 </con:config>

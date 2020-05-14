@@ -18,8 +18,5 @@
       <con:item name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims">http://schemas.xmlsoap.org/ws/2005/05/identity/claims</con:item>
       <con:item name="http://schemas.microsoft.com/ws/2008/06/identity/claims">http://schemas.microsoft.com/ws/2008/06/identity/claims</con:item>
       <con:item name="http://schemas.microsoft.com/LiveID/Federation/2008/05">http://schemas.microsoft.com/LiveID/Federation/2008/05</con:item>
-      <con:item name="http://schemas.microsoft.com/claims">http://schemas.microsoft.com/claims</con:item>
-      <con:item name="http://schemas.microsoft.com/identity/claims">http://schemas.microsoft.com/identity/claims</con:item>
-      <con:item name="http://schemas.microsoft.com/ws/2012/01">http://schemas.microsoft.com/ws/2012/01</con:item>
     </con:map>
 </con:config>
